@@ -11,6 +11,7 @@ def index(request):
 
 
 class MenuItemView(ListCreateAPIView):
+    permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
 
