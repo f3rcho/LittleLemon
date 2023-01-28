@@ -1,2 +1,2 @@
-testuser
-test@123!
+username=testuser
+password=test@123!
